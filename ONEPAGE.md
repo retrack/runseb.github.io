@@ -17,7 +17,7 @@ What we will do in this tutorial is:
 5. Using [Ansible](http://ansibleworks.com) configuration management tool
 6. Using the AWS [CLI](http://aws.amazon.com/cli/) with the CloudStack EC2 interface [`ec2stack`](https://github.com/BroganD1993/ec2stack)
 
-If you would like to see more, reach out to me on Twitter: @sebgoa
+If you would like to see more, reach out to this guide author on Twitter: @sebgoa
 
 And don't hesitate to donate :)
 
@@ -26,7 +26,7 @@ Bitcoin address: 1DkeZs5HJTcsRyjZviZ9NjiecfqZsDqnA2
 Feet Wet with [exoscale](http://exoscale.ch)
 ============================================
 
-![Exoscale Logo](./images/exoscale.jpg)
+![Exoscale Logo](./images/exoscale.png)
 
 To get started, we are going to access `exoscale` a CloudStack based cloud in Switzerland.
 
