@@ -469,6 +469,9 @@ To get you started quickly, save the following script in a .py file.
 
 Set your API keys properly as environment variables and install IPython.
 
+    export EXOSCALE_API_KEY = 'XXXXXXXX'
+    ...
+
 Start this shell by executing the script:
 
     $ ./libshell.py
