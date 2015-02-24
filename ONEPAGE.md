@@ -390,7 +390,7 @@ public cloud, make sure to use SSL properly (i.e `secure=True`). Replace the hos
 
     >>> apikey='plgWJfZK4gyS3mlZLYq_u38zCm0bewzGUdP66mg'
     >>> secretkey='VDaACYb0LV9eNjeq1EhwJaw7FF3akA3KBQ'
-    >>> host='https://api.exoscale.ch'
+    >>> host='api.exoscale.ch'
     >>> path='/compute'
     >>> conn=Driver(key=apikey,secret=secretkey,secure=True,host=host,port='443',path=path)
 
