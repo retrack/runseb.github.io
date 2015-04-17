@@ -142,8 +142,8 @@ You will then be logged in a coreOS instance which runs docker.
 
 To test docker, just pull an nginx container image from dockerhub and run it:
 
-    $ docker pull dockerfile/nginx
-    $ docker run -p 80:80 -d dockerfile/nginx
+    $ docker pull nginx
+    $ docker run -p 80:80 -d nginx
 
 Using cloud-config
 ------------------
@@ -182,7 +182,8 @@ Once the instance has started, you can ssh into it like we did previously. It wi
 
     $ watch docker images
 
-Once it's downloaded the container will start and you will be able to open your browser on http://<ip of instance>:9200
+Once it's downloaded the container will start and you will be able to open your browser on http://<ip of instance>:9200.
+Do not forget to add a new rule in the default security group for TCP 9200 Ingress.
 
 Well done, you are running a one node elasticsearch "cluster" via docker on coreOS on cloudstack.
 
